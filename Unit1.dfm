@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 267
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 152
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = 'Save to File'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select '#39'Marius'#39' as Name, '#39'van Tubbergh'#39' as Surname, '#39'40'#39' as Age')
+    Left = 160
+    Top = 120
+  end
+  object FDBatchMove1: TFDBatchMove
+    Reader = FDBatchMoveDataSetReader1
+    Writer = FDBatchMoveTextWriter1
+    Options = [poCreateDest]
+    Mappings = <>
+    LogFileName = 'Data.log'
+    Left = 240
+    Top = 120
+  end
+  object FDBatchMoveDataSetReader1: TFDBatchMoveDataSetReader
+    DataSet = FDQuery1
+    Left = 456
+    Top = 40
+  end
+  object FDBatchMoveTextWriter1: TFDBatchMoveTextWriter
+    DataDef.Fields = <>
+    DataDef.EndOfLine = elWindows
+    DataDef.StrsEmpty2Null = False
+    DataDef.FormatSettings.BoolTrueVals.Strings = (
+      #39#39)
+    DataDef.FormatSettings.BoolFalseVals.Strings = (
+      #39#39)
+    DataDef.FormatSettings.NullVals.Strings = (
+      #39#39)
+    Left = 536
+    Top = 128
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'SERVER=MTUBBERGH-PC\SQL2012'
+      'OSAuthent=Yes'
+      'ApplicationName=Enterprise/Architect/Ultimate'
+      'Workstation=MTUBBERGH-PC'
+      'MARS=yes'
+      'Database=IntX3'
+      'User_Name=sa'
+      'Password=bumper'
+      'DriverID=MSSQL')
+    Connected = True
+    Left = 160
+    Top = 56
+  end
+end

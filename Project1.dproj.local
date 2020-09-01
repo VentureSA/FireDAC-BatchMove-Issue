@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.126,=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.683,=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.967,=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.035,=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.549,=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-09-01 08:12:26.794,=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-09-01 10:03:38.694,C:\Users\m.tubbergh\Desktop\FireDAC Export to File Help\Unit1.pas=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020-09-01 10:03:38.694,C:\Users\m.tubbergh\Desktop\FireDAC Export to File Help\Unit1.dfm=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020-09-01 10:03:40.371,C:\Users\m.tubbergh\Desktop\FireDAC Export to File Help\Project1.dproj=C:\Users\m.tubbergh\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
